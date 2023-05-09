@@ -59,8 +59,13 @@
          list-style:none;
     }
 
+    ul{
+        position: relative;
+        left:-1.5em;
+    }
+
     #carousel-capa{
-        min-height: 5em;
+        
     }
 
     .img-carousel{
@@ -125,9 +130,21 @@
         top:3em;
     }
 
+    .caracteristica-imovel{
+         background-image: url("fundo-caracteristica-imovel.png");
+        background-color: yellow;
+        background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;
+    }
+
     #header-caracteristica{
         white-space: nowrap;
-        font-weight: 500;
+        font-weight: 700;
+        
+        background:gold;
+        border-radius: 5%;
+
     }
     .fa-square-o, .fa-check-square-o{
         font-size: 2em;
@@ -135,14 +152,20 @@
 
 
 
-    .item-caracteristica-imovel{
-        animation: blink 5s linear infinite;
-    }
+    
 
     #localizacao{
         position: relative;
         left:0;
         top:3em;
+    }
+
+    #header-localizacao{
+        white-space: nowrap;
+        font-weight: 700;
+        
+        background:gold;
+        border-radius: 5%;
     }
 
     #mapa-localizacao{
@@ -309,10 +332,7 @@
 
 
 
-    .item-caracteristica-imovel{
-        animation: blink 5s linear infinite;
-    }
-
+    
     #localizacao{
         position: relative;
         left:0;
@@ -478,9 +498,7 @@
 
 
 
-    .item-caracteristica-imovel{
-        animation: blink 5s linear infinite;
-    }
+    
 
     #localizacao{
         position: relative;
@@ -647,9 +665,7 @@
 
 
 
-    .item-caracteristica-imovel{
-        animation: blink 5s linear infinite;
-    }
+    
 
     #localizacao{
         position: relative;
