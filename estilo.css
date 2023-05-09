@@ -1,6 +1,7 @@
 *{
 	margin:0;
 	padding:0;
+    text-shadow: 2px 2px 4px #ffffff;
 }
 
 @media (max-width:  320.97px) {
@@ -76,6 +77,8 @@
 
     #copy-lp{
         font-weight: 700;
+         text-shadow: 2px 2px 4px #ffffff;
+
     }
 
     #faixa-giratoria{
@@ -88,12 +91,15 @@
         100%{opacity: 1;}
     }
 
+    
+
     .itens-faixa-giratoria{
         color: gold;
-        font-size:1.2em;
+        font-size:1.5em;
         white-space: nowrap;
         animation: blink 1s 2s linear infinite;
         font-weight: 800;
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 
     }
 
