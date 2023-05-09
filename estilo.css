@@ -92,8 +92,14 @@
         color: gold;
         font-size:1.2em;
         white-space: nowrap;
-        animation: blink 1s linear infinite;
-        font-weight: 500;
+        animation: blink 1s 2s linear infinite;
+        font-weight: 800;
+
+    }
+
+    #header-formulario{
+
+        font-weight: 700;
 
     }
 
