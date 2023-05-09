@@ -1,8 +1,21 @@
 *{
 	margin:0;
 	padding:0;
-    text-shadow: 2px 2px 4px #ffffff;
+    
 }
+
+.label-form{
+    position: relative;
+    top:0.7em;
+    background: gold;
+    border-radius: 10%;
+    padding: 0.5em;
+    line-height:0.7em;  
+
+}
+
+
+
 
 @media (max-width:  320.97px) {
 
@@ -117,6 +130,7 @@
          background-position: center;
          background-size: cover;
         
+        
     }
 
     form{
@@ -136,6 +150,16 @@
     #parte-2-form{
          box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
     }
+
+    .input-form{
+        font-weight: 700;
+        font-size: 1.5em;
+        text-shadow: none;
+    }
+
+
+
+
 
     #caracteristica-imovel{
         position: relative;
@@ -346,6 +370,12 @@
          box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
     }
 
+    .input-form{
+        font-weight: 700;
+        font-size: 1.5em;
+        text-shadow: none;
+    }
+
     #caracteristica-imovel{
         position: relative;
         top:3em;
@@ -544,6 +574,12 @@
         border: 1px solid rgba(255, 255, 255, 0.3);
         text-shadow: 1px 1px 1px 1px;
         min-height: 50%;
+    }
+
+    .input-form{
+        font-weight: 700;
+        font-size: 1.5em;
+        text-shadow: none;
     }
 
     #parte-2-form{
@@ -749,6 +785,12 @@
         min-height: 50%;
     }
 
+    .input-form{
+        font-weight: 700;
+        font-size: 1.5em;
+        text-shadow: none;
+    }
+
     #parte-2-form{
          box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
     }
@@ -936,12 +978,14 @@
         background-repeat: no-repeat;
          background-position: center;
          background-size: cover;
+
         
     }
 
     form{
         position: relative;
         top:0;
+        left:0.5em;
         /* From https://css.glass */
         background: rgba(255, 255, 255, 0.2);
         border-radius: 16px;
@@ -951,6 +995,13 @@
         border: 1px solid rgba(255, 255, 255, 0.3);
         text-shadow: 1px 1px 1px 1px;
         min-height: 50%;
+        max-width:95%;
+    }
+
+    .input-form{
+        font-weight: 700;
+        font-size: 1.5em;
+        text-shadow: none;
     }
 
     #parte-2-form{
